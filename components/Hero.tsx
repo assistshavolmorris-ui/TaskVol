@@ -42,7 +42,11 @@ const Hero: React.FC<HeroProps> = ({ onBookClick, onIntakeClick }) => {
           <div className="flex flex-wrap justify-center gap-4 md:gap-8 text-sm font-medium text-slate-500">
             <div className="flex items-center gap-2">
               <CheckCircle2 size={18} className="text-brand-500" />
-              <span>3+ Years Payroll Exp.</span>
+              <span>Payroll Support</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <CheckCircle2 size={18} className="text-brand-500" />
+              <span>Admin Support</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 size={18} className="text-brand-500" />
@@ -50,7 +54,7 @@ const Hero: React.FC<HeroProps> = ({ onBookClick, onIntakeClick }) => {
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 size={18} className="text-brand-500" />
-              <span>Admin Support</span>
+              <span>Creative Services</span>
             </div>
           </div>
         </div>
