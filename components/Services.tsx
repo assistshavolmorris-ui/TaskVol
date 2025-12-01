@@ -5,13 +5,13 @@ const Services: React.FC = () => {
   const services = [
     {
       icon: DollarSign,
-      title: "Payroll Support (Lead)",
-      description: "My specialty. I ensure your team gets paid correctly and on time, every time.",
+      title: "Payroll Support",
+      description: "Ensure your team gets paid correctly and on time, every time.",
       bullets: ["Setup & Processing", "Changes & Reporting", "Compliance Checks", "Tax Document Organization"]
     },
     {
       icon: Mail,
-      title: "Administrative Support",
+      title: "Admin Support",
       description: "Reclaim your time by outsourcing the daily operational tasks.",
       bullets: ["Email Management", "Calendar Scheduling", "Research & Data Entry", "Document Preparation"]
     },
@@ -23,9 +23,9 @@ const Services: React.FC = () => {
     },
     {
       icon: Palette,
-      title: "Creative Partners",
-      description: "Access my trusted network for specialized creative work.",
-      bullets: ["Branding & Web Design", "Video Editing", "Graphic Design", "Referral Network Access"]
+      title: "Creative Services",
+      description: "Access specialized creative work tailored to your needs.",
+      bullets: ["Branding & Web Design", "Video Editing", "Graphic Design", "Content Creation"]
     }
   ];
 
