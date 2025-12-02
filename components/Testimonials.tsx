@@ -1,5 +1,5 @@
 import React from 'react';
-import { Quote, Play } from 'lucide-react';
+import { Quote } from 'lucide-react';
 
 const Testimonials: React.FC = () => {
   return (
@@ -11,24 +11,17 @@ const Testimonials: React.FC = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
-          
-          {/* Video Placeholder */}
-          <div className="relative aspect-video bg-slate-800 rounded-2xl overflow-hidden group cursor-pointer shadow-2xl ring-1 ring-white/10">
-            <img 
-              src="https://picsum.photos/seed/taskvolvideo/800/450" 
-              alt="Ms. Mary Testimonial" 
-              className="w-full h-full object-cover opacity-50 group-hover:opacity-40 transition-opacity"
+
+          {/* Photo */}
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-white/10">
+            <img
+              src="/498926081_18406499767102841_8306363826549051193_n.jpg"
+              alt="Dr. Dante Myers"
+              className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center">
-              <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                <Play fill="white" className="text-white ml-1" size={32} />
-              </div>
-              <p className="font-medium text-lg">Watch Ms. Mary's Story</p>
-              <p className="text-sm text-slate-300">Director, Community Outreach</p>
-            </div>
           </div>
 
-          {/* Quotes */}
+          {/* Quote */}
           <div className="space-y-8">
             <div className="relative pl-8 border-l-4 border-brand-500">
               <Quote className="absolute -top-2 -left-5 text-brand-500 bg-slate-900 p-1" size={40} />
@@ -37,7 +30,7 @@ const Testimonials: React.FC = () => {
               </p>
               <div>
                 <p className="font-bold text-white">Dr. Dante Myers</p>
-                <p className="text-brand-400 text-sm">Healthcare Professional</p>
+                <p className="text-brand-400 text-sm">Consultant & Realtor</p>
               </div>
             </div>
           </div>
