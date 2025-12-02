@@ -22,8 +22,8 @@ const Hero: React.FC<HeroProps> = ({ onBookClick, onIntakeClick }) => {
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-slate-900 mb-6 leading-tight">
-            Your Payroll-First <br className="hidden md:block" />
-            <span className="text-brand-600">Virtual Assistant</span>
+            Your Trusted <br className="hidden md:block" />
+            <span className="text-brand-600">Support Partner</span>
           </h1>
           
           <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto">
