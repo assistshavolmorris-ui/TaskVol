@@ -33,32 +33,11 @@ const Testimonials: React.FC = () => {
             <div className="relative pl-8 border-l-4 border-brand-500">
               <Quote className="absolute -top-2 -left-5 text-brand-500 bg-slate-900 p-1" size={40} />
               <p className="text-xl leading-relaxed text-slate-200 italic mb-4">
-                "Shavol transformed how we handle our events. I used to stress about every vendor call, but now I just show up and everything is perfect. Her payroll accuracy is just the cherry on top."
-              </p>
-              <div>
-                <p className="font-bold text-white">Sarah Jenkins</p>
-                <p className="text-brand-400 text-sm">CEO, Creative Agency</p>
-              </div>
-            </div>
-
-            <div className="relative pl-8 border-l-4 border-brand-500">
-              <Quote className="absolute -top-2 -left-5 text-brand-500 bg-slate-900 p-1" size={40} />
-              <p className="text-xl leading-relaxed text-slate-200 italic mb-4">
                 "Working with Shavol was a great experience. She brings an inquisitive mind and execution to tasks to help accomplish what is laid before her. She is dependable and loyal, and doesn't look at each assignment as just another task to complete. She takes ownership and that's exactly what anyone would ask for. I fully recommend working with Shavol."
               </p>
               <div>
                 <p className="font-bold text-white">Dr. Dante Myers</p>
                 <p className="text-brand-400 text-sm">Healthcare Professional</p>
-              </div>
-            </div>
-
-            <div className="relative pl-8 border-l-4 border-slate-700">
-              <p className="text-lg leading-relaxed text-slate-300 italic mb-4">
-                "Reliable, fast, and incredibly organized. TaskVol took over our admin inbox and I finally have time to focus on strategy."
-              </p>
-              <div>
-                <p className="font-bold text-white">Dr. Emily Chen</p>
-                <p className="text-slate-400 text-sm">Founder, HealthTech Startup</p>
               </div>
             </div>
           </div>
