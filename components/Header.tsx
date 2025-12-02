@@ -37,10 +37,8 @@ const Header: React.FC<HeaderProps> = ({ onBookClick }) => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2">
-            <span className={`text-2xl font-serif font-bold tracking-tight ${isScrolled ? 'text-brand-800' : 'text-brand-900'}`}>
-              TaskVol
-            </span>
+          <a href="#" className="flex items-center">
+            <img src="/Untitled design.png" alt="TaskVol" className="h-12 w-auto" />
           </a>
 
           {/* Desktop Nav */}
