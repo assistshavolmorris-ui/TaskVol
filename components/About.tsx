@@ -9,9 +9,9 @@ const About: React.FC = () => {
           {/* Image Column */}
           <div className="w-full md:w-1/2 relative">
             <div className="absolute inset-0 bg-brand-200 rounded-3xl transform rotate-3"></div>
-            <img 
-              src="https://picsum.photos/seed/shavol/600/800" 
-              alt="Shavol Morris" 
+            <img
+              src="/family.jpg"
+              alt="Shavol Morris"
               className="relative rounded-3xl shadow-lg w-full h-[400px] md:h-[500px] object-cover"
             />
           </div>
