@@ -60,7 +60,7 @@ const ProblemOutcome: React.FC = () => {
 
         <div className="text-center mt-12">
           <p className="text-lg font-medium text-brand-800 italic">
-            "I’m the help you’ve been looking for."
+            "My name is Shavol Morris and i'm the help you've been looking for."
           </p>
         </div>
       </div>
