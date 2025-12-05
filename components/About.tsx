@@ -27,13 +27,19 @@ const About: React.FC = () => {
             
             <div className="space-y-4 text-slate-600 leading-relaxed">
               <p>
-                Hello! I'm Shavol, the founder of TaskVol. With a background as a pastor, I’ve spent my life serving others, managing complex logistics with grace, and ensuring the details never get missed.
+                Hi, my name is Shavol Morris and I'm the help you've been looking for!
               </p>
               <p>
-                I bring <strong>3–4 years of dedicated payroll experience</strong> and over <strong>10 years of event coordination expertise</strong> to the table. I know that for busy founders, trust is everything. You need someone who doesn't just do the task, but owns the outcome.
+                I created TaskVol because I've always been the person people turn to when they need things organized, simplified, and executed with care.
               </p>
               <p>
-                Whether it's ensuring your team is paid accurately or managing the high-stakes environment of a live event, I bring a calm, professional presence to your business.
+                I know what it's like to feel pulled in a million directions — and I also know the power of having the right support behind you.
+              </p>
+              <p>
+                Today, I help busy professionals and entrepreneurs reclaim their time by taking on the tasks that slow them down: from admin and payroll to logistics, content, and creative work.
+              </p>
+              <p>
+                I love helping people run their businesses (and lives) more smoothly. And if you're ready for structure, consistency, and less stress in 2026, I'd love to be in your corner.
               </p>
             </div>
 
