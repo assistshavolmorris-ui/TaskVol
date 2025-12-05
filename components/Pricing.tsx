@@ -41,23 +41,23 @@ const Pricing: React.FC<PricingProps> = ({ onBookClick }) => {
               <ul className="space-y-3">
                 <li className="flex items-start gap-3 text-slate-700">
                   <Check size={20} className="text-brand-600 mt-0.5 shrink-0" />
-                  <span>Monthly payroll processing for your team</span>
+                  <span>Up to 40 hours/month of dedicated administrative support (email, calendar, data entry, document prep)</span>
                 </li>
                 <li className="flex items-start gap-3 text-slate-700">
                   <Check size={20} className="text-brand-600 mt-0.5 shrink-0" />
-                  <span>Tax filing and compliance management</span>
+                  <span>Full monthly payroll processing, including changes, reporting, and compliance checks</span>
                 </li>
                 <li className="flex items-start gap-3 text-slate-700">
                   <Check size={20} className="text-brand-600 mt-0.5 shrink-0" />
-                  <span>Administrative support hours package</span>
+                  <span>Quarterly tax document organization and preparation for your accountant</span>
                 </li>
                 <li className="flex items-start gap-3 text-slate-700">
                   <Check size={20} className="text-brand-600 mt-0.5 shrink-0" />
-                  <span>Priority scheduling and response times</span>
+                  <span>Basic graphic design for social media templates or presentation slides (up to 5 unique assets/month)</span>
                 </li>
                 <li className="flex items-start gap-3 text-slate-700">
                   <Check size={20} className="text-brand-600 mt-0.5 shrink-0" />
-                  <span>Quarterly business review and planning session</span>
+                  <span>Priority access and discounted rates for additional Event Coordination or advanced Creative Services</span>
                 </li>
               </ul>
             </div>
