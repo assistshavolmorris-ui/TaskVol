@@ -15,7 +15,7 @@ const Testimonials: React.FC = () => {
           {/* Photo */}
           <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-white/10">
             <img
-              src="/Untitled design.png"
+              src="/family.jpg"
               alt="Dr. Dante Myers"
               className="w-full h-full object-cover"
             />
