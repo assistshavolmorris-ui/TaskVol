@@ -21,7 +21,6 @@ const Header: React.FC<HeaderProps> = ({ onBookClick }) => {
   const navLinks = [
     { name: 'Services', href: '#services' },
     { name: 'Packages', href: '#packages' },
-    { name: 'How It Works', href: '#how-it-works' },
     { name: 'About', href: '#about' },
   ];
 
