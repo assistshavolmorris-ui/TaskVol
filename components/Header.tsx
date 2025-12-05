@@ -23,7 +23,6 @@ const Header: React.FC<HeaderProps> = ({ onBookClick }) => {
     { name: 'Packages', href: '#packages' },
     { name: 'How It Works', href: '#how-it-works' },
     { name: 'About', href: '#about' },
-    { name: 'FAQ', href: '#faq' },
   ];
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
