@@ -5,7 +5,6 @@ import ProblemOutcome from './components/ProblemOutcome';
 import Services from './components/Services';
 import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
-import HowItWorks from './components/HowItWorks';
 import About from './components/About';
 import IntakeForm from './components/IntakeForm';
 import Footer from './components/Footer';
@@ -35,7 +34,6 @@ const App: React.FC = () => {
         <Services />
         <Pricing onBookClick={handleBookClick} />
         <Testimonials />
-        <HowItWorks />
         <About />
         <IntakeForm />
       </main>
