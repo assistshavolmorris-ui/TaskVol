@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-2 text-sm">
               <li className="flex items-center gap-2">
                 <Mail size={16} />
-                <a href="mailto:hello@taskvol.com" className="hover:text-brand-400">hello@taskvol.com</a>
+                <a href="mailto:ShavolMorris@Taskvolassist.com" className="hover:text-brand-400">ShavolMorris@Taskvolassist.com</a>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin size={16} />
