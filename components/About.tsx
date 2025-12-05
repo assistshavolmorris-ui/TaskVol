@@ -10,7 +10,7 @@ const About: React.FC = () => {
           <div className="w-full md:w-1/2 relative">
             <div className="absolute inset-0 bg-brand-200 rounded-3xl transform rotate-3"></div>
             <img
-              src="/family.jpg"
+              src="/me.jpg.jpg"
               alt="Shavol Morris"
               className="relative rounded-3xl shadow-lg w-full h-[400px] md:h-[500px] object-cover"
             />
