@@ -16,8 +16,8 @@ const Hero: React.FC<HeroProps> = ({ onBookClick, onIntakeClick }) => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-50 border border-brand-100 text-brand-700 text-xs font-semibold uppercase tracking-wide mb-6">
-            <span className="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-50 border border-green-100 text-green-700 text-xs font-semibold uppercase tracking-wide mb-6">
+            <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
             Accepting New Clients
           </div>
           
