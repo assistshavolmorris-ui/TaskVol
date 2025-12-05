@@ -29,7 +29,7 @@ const Pricing: React.FC<PricingProps> = ({ onBookClick }) => {
                 Q1 2026 Complete Support Bundle
               </h3>
               <div className="mb-6">
-                <span className="text-5xl font-bold text-slate-900">Custom Quote</span>
+                <span className="text-5xl font-bold text-slate-900">$500</span>
               </div>
               <p className="text-slate-600">
                 Three months of dedicated support tailored to your business needs
