@@ -35,7 +35,7 @@ const Pricing: React.FC<PricingProps> = ({ onBookClick }) => {
     <section id="packages" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-4">Simple Packages</h2>
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-4">Packages</h2>
           <p className="text-slate-600">
             Starting points for our partnership. Custom packages available after discovery.
           </p>
