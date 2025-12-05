@@ -32,7 +32,7 @@ const Hero: React.FC<HeroProps> = ({ onBookClick, onIntakeClick }) => {
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10">
             <Button onClick={onBookClick} size="lg" className="w-full sm:w-auto shadow-brand-500/20 shadow-lg">
-              Book a Discovery Call
+              Free Discovery Call
             </Button>
             <Button onClick={onIntakeClick} variant="outline" size="lg" className="w-full sm:w-auto">
               Share Project Details
