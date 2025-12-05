@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './ui/Button';
 import { Check } from 'lucide-react';
+import CountdownTimer from './CountdownTimer';
 
 interface PricingProps {
   onBookClick: () => void;
@@ -35,6 +36,8 @@ const Pricing: React.FC<PricingProps> = ({ onBookClick }) => {
                 One-time fee for three months of dedicated support tailored to your business needs
               </p>
             </div>
+
+            <CountdownTimer />
 
             <div className="bg-white rounded-2xl p-8 mb-8 shadow-sm">
               <h4 className="font-bold text-slate-900 mb-4">Bundle Includes:</h4>
