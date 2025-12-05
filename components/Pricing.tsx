@@ -30,10 +30,9 @@ const Pricing: React.FC<PricingProps> = ({ onBookClick }) => {
               </h3>
               <div className="mb-6">
                 <span className="text-5xl font-bold text-slate-900">$1500</span>
-                <span className="text-xl text-slate-600">/month</span>
               </div>
               <p className="text-slate-600">
-                Dedicated support tailored to your business needs
+                One-time fee for three months of dedicated support tailored to your business needs
               </p>
             </div>
 
