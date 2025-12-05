@@ -7,7 +7,6 @@ import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
 import HowItWorks from './components/HowItWorks';
 import About from './components/About';
-import FAQ from './components/FAQ';
 import IntakeForm from './components/IntakeForm';
 import Footer from './components/Footer';
 import BookingModal from './components/BookingModal';
@@ -38,7 +37,6 @@ const App: React.FC = () => {
         <Testimonials />
         <HowItWorks />
         <About />
-        <FAQ />
         <IntakeForm />
       </main>
 
